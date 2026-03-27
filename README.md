@@ -10,11 +10,12 @@ Adafruit SSD1306
 Adafruit GFX Library
 
 Wiring (I2C — shared bus)
-GY-271 / SSD1306        Arduino
-VCC                     3.3V or 5V
-GND                     GND
-SDA                     A4
-SCL                     A5
+|GY-271 / SSD1306      |  Arduino|
+|------|--------------------|
+|VCC                   | 3.3V or 5V|
+|GND                   |  GND|
+|SDA                  |   A4|
+|SCL             |        A5|
 
 Tip: Adjust LEAN_THRESHOLD (currently 50) higher to reduce false triggers from noise, or lower it for more sensitivity.
 
