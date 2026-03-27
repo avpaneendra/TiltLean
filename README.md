@@ -12,7 +12,7 @@ Adafruit GFX Library
 Wiring (I2C — shared bus)
 |GY-271 / SSD1306      |  Arduino| Esp32 |
 |------|--------------------|-------|
-|VCC                   | 3.3V or 5V| 3.3V or 5V|
+|VCC                   | 3.3V or 5V| 3.3V |
 |GND                   |  GND| GND| 
 |SDA                  |   A4| D21 or GPIO21 |
 |SCL             |        A5|D22 or GPIO22 |
