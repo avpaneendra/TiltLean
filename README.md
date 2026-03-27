@@ -46,7 +46,7 @@ F/B : FRONT
   Mag: 150
 ─────────────────
 Z: -42
-|##OUTPUT##|
+##OUTPUT##
 Zeroed -> X: -2126 Y: -801 Z: -1307  |  LR: LEFT (801)  FB: BACK (2126)
 Zeroed -> X: -2128 Y: -801 Z: -1326  |  LR: LEFT (801)  FB: BACK (2128)
 Zeroed -> X: -2136 Y: -814 Z: -1321  |  LR: LEFT (814)  FB: BACK (2136)
