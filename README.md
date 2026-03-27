@@ -2,6 +2,18 @@
 GY-271  Tilt/Lean Detector with OLED SSD1306 Display - Reads XYZ on startup and sets as zero reference (offset calibration) - Detects Left/Right lean and Front/Back lean from relative changes - Displays lean direction and angle on 128x64 OLED via I2C
 USED : https://github.com/mprograms/QMC5883LCompass
 
+Required Libraries
+Install these via Arduino Library Manager:
+
+QMC5883LCompass by MPrograms
+Adafruit SSD1306
+Adafruit GFX Library
+
+Wiring (I2C — shared bus)
+GY-271 / SSD1306ArduinoVCC3.3V or 5VGNDGNDSDAA4SCLA5
+
+Tip: Adjust LEAN_THRESHOLD (currently 50) higher to reduce false triggers from noise, or lower it for more sensitivity.
+
 ## How It Works
 
 ### Zero Calibration (Startup)
