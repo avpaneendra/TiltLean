@@ -1,3 +1,17 @@
+# TFT_22_ILI9225 
+#include "SPI.h"
+#include "TFT_22_ILI9225.h"
+
+#define TFT_RST A4
+#define TFT_RS  A3
+#define TFT_CS  A5
+#define TFT_SDI A2
+#define TFT_CLK A1
+#define TFT_LED 0
+
+TFT_22_ILI9225 tft = TFT_22_ILI9225(TFT_RST, TFT_RS, TFT_CS, TFT_SDI, TFT_CLK, TFT_LED);
+
+
 # TiltLean
 GY-271  Tilt/Lean Detector with OLED SSD1306 Display - Reads XYZ on startup and sets as zero reference (offset calibration) - Detects Left/Right lean and Front/Back lean from relative changes - Displays lean direction and angle on 128x64 OLED via I2C
 USED : 
